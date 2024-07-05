@@ -1,0 +1,7 @@
+FireBase Realtime Database
+{
+  "rules": {
+    ".read": "now < 1706985000000",  // 2024-2-4
+    ".write": "now < 1706985000000",  // 2024-2-4
+  }
+}

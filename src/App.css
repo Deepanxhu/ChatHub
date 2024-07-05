@@ -1,0 +1,66 @@
+.inptxt{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.nametxt{
+  text-align: center;
+  padding: 20px 15px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+.chatbox{
+  border: none;
+  border-radius: 30px;
+  margin: 5px 0;
+  padding: 10px;
+  background-color: bisque;
+  box-shadow: 0 10px 10px 0 rgba(151, 151, 151, 0.5);
+}
+.me .chatbox{
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(0, 255, 76);
+  color: black;
+  box-shadow: 0 5px 10px 3px rgba(71, 71, 71, 0.5);
+}
+h3{
+  font: 20px sans-serif;
+  font-weight: 700;
+  text-decoration: underline;
+  text-align: center;
+}
+.container{
+  display: flex;
+}
+.container.me{
+  flex-direction: row-reverse;
+}
+.btm{
+  position: fixed;
+  width: 100%;
+  bottom: 1px;
+  display: flex;
+  flex-direction: row;
+}
+.btm input{
+  padding: 10px 0;
+  flex-grow: 1;
+}
+.btm button{
+  font-style: italic;
+  font-weight: 800;
+  padding: 15px 20px;
+  border: none;
+  background-color: rgb(146, 232, 16);
+  color: black;
+}
+button:hover{
+  background-color:rgb(130, 210, 10);
+}
+
+.chat-container{
+  height: 83vh;
+  overflow-y: scroll;
+}
